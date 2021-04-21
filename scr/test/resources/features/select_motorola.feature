@@ -6,5 +6,5 @@ Given Form --Form index. @field-keywords_(Written): "mobile phone motorola" @All
 When FormAs --header
 And Click @Len - (nav-search-submit-button)
 Then @Results(auto) enabled -- Resultados
-When When Select click @Brand(a-icon a-icon-checkbox)
+When When Select click @Brand(a_icon_a_icon_checkbox)
 Then @Results(auto) enabled -- Resultados
