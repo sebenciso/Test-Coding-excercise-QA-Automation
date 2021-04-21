@@ -6,5 +6,5 @@ Given Form --Form index. @field-keywords_(Written): "mobile phone motorola" @All
 When FormAs --header
 And Click @Len - (nav-search-submit-button)
 When Click @Scroll_bar () 
-When Move down_up @Scroll_bar (document.body.scrollHeight)
+When Move down_up @Scroll_bar(document.body.scrollHeight)
 Then @Results(auto) enabled -- Resultados
