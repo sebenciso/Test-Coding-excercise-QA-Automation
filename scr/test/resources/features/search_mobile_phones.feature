@@ -1,5 +1,5 @@
 Feature Search: mobile phones
-Background: @Login Session (enabled)
+Background: Background: Form --Form registerUser. Session User(Enabled)
 
 Given  Form-- bar_search
 When FormAs--twotabsearchtextbox 
