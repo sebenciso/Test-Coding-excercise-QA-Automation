@@ -1,6 +1,6 @@
 Feature_Open: Abrir website https://www.amazon.com/
 
-Background: @Login Session (enabled)
+Background: Form --Form registerUser. Session User(Enabled)
 
 Given  Form --Abrir navegador MozillaFireFox
 When  Digitar en la @url https://www.amazon.com/
