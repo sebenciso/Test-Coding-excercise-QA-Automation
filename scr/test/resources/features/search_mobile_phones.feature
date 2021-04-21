@@ -1,4 +1,6 @@
 Feature Search: mobile phones
+Background: @Login Session (enabled)
+
 Given  Form-- bar_search
 When FormAs--twotabsearchtextbox 
 And Click @Electronics -- Electronics (button)
