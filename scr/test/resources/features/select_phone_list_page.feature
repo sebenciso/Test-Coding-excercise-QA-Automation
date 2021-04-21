@@ -12,4 +12,4 @@ When Select click @Brand(a_icon_a_icon_checkbox)
 Then @Results(auto) enabled -- Resultados
 When @Next(a-letter-space)-- siguiente pagina.
 When Click @auto(Motorola DROID Turbo 2, XT1585 32GB Black, Unlocked)
-hen @Results(auto) enabled -- Resultados
+Then @Results(auto) enabled -- Resultados
